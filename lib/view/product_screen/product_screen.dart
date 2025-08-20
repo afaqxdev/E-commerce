@@ -21,7 +21,6 @@ class ProductsScreen extends StatelessWidget {
       child: Scaffold(
         backgroundColor: AppColors.white,
 
-        extendBodyBehindAppBar: true,
         appBar: AppBar(
           elevation: 0,
           title: CustomText.medium('Products'),

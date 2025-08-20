@@ -64,14 +64,14 @@ class FavoritesScreen extends StatelessWidget {
                       borderRadius: BorderRadius.circular(12),
                       borderSide: const BorderSide(
                         color: AppColors.black,
-                        width: 2,
+                        width: 1,
                       ),
                     ),
                     focusedBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(12),
                       borderSide: const BorderSide(
                         color: AppColors.black,
-                        width: 2,
+                        width: 1,
                       ),
                     ),
                     filled: true,

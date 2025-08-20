@@ -105,17 +105,6 @@ flutter run
 
 ---
 
-## 🧪 Testing
-
-* Unit testing and widget testing can be done using Flutter’s built-in test framework.
-* Run all tests:
-
-```bash
-flutter test
-```
-
----
-
 ## 📌 Notes
 
 * Make sure to **add your API endpoints** in `config/api_endpoint.dart`.
