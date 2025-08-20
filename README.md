@@ -85,7 +85,7 @@ lib/
 ### 1. Clone the repository
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/afaqxdev/E-commerce
 cd task_app
 ````
 
@@ -124,23 +124,4 @@ flutter test
 
 ---
 
-## ✨ Recommended Improvements
 
-* Add **in-app purchase or subscription features**.
-* Add **local notifications** or reminders.
-* Implement **offline caching** for better UX.
-
----
-
-## 📄 License
-
-This project is open-source under the **MIT License**.
-
-```
-
----
-
-If you want, I can also **enhance this README** with **badges, screenshots, and setup instructions for Android/iOS**, making it GitHub-ready and visually appealing.  
-
-Do you want me to do that?
-```
