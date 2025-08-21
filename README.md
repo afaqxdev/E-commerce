@@ -8,16 +8,52 @@ A **Flutter e-commerce app** built with provider state management, supporting ne
 ## 📦 Folder Structure
 
 ```
-
-lib/
-├── config/       # API endpoints, constants, environment configurations
-├── const/        # App-wide constants (strings, colors, images)
-├── model/        # Data models (Product, Category, etc.)
-├── routing/      # Named routes and navigation management
-├── services/     # API calls, splash services, and other app services
-├── utils/        # Helper utilities, custom widgets, extensions
-└── view/         # Screens and widgets organized by feature
-
+ lib
+    ├── config
+    │   ├── api_endpoint.dart
+    │   └── api_exception.dart
+    ├── const
+    │   ├── app_strings.dart
+    │   ├── color.dart
+    │   └── images.dart
+    ├── main.dart
+    ├── model
+    │   ├── category_model.dart
+    │   └── product_model.dart
+    ├── routing
+    │   ├── routing.dart
+    │   └── routing_name.dart
+    ├── services
+    │   ├── api_services.dart
+    │   ├── base_api.dart
+    │   └── splash_services.dart
+    ├── uitls
+    │   ├── custom_text.dart
+    │   └── sizebox_extension.dart
+    └── view
+    │   ├── category_screen
+    │       ├── category_provider.dart
+    │       ├── catrgory_screen.dart
+    │       └── widget
+    │       │   └── error_widget.dart
+    │   ├── favourites_screen
+    │       ├── favorites_provider.dart
+    │       └── favorites_screen.dart
+    │   ├── main_screen
+    │       ├── main_provider.dart
+    │       └── main_screen.dart
+    │   ├── product_details
+    │       └── product_details.dart
+    │   ├── product_screen
+    │       ├── product_provider.dart
+    │       ├── product_screen.dart
+    │       └── widget
+    │       │   └── product_card.dart
+    │   ├── splash_screen
+    │       ├── splash_provider.dart
+    │       └── splash_screen.dart
+    │   └── user_name
+    │       └── user_name.dart
 ````
 
 ---
